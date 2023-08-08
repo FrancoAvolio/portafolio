@@ -18,6 +18,11 @@ export default function Home() {
           <ul className="flex items center gap-8">
             <li>
               <Link className="btn" href={'/'}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="btn" href={'/'}>
                 Contact
               </Link>
             </li>
@@ -37,16 +42,25 @@ export default function Home() {
           </h2>
           <h3 className="text-2xl py-2 text-white">Front-End Developer</h3>
           <p className="text-md py-5 leading-8 text-gray-500">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam omnis consectetur nobis commodi! Sequi, quas! Delectus officia omnis saepe veniam maxime mollitia facere deleniti blanditiis, doloremque temporibus minus velit id iste, quaerat porro corporis architecto amet vitae alias. Cum a exercitationem quisquam quasi, temporibus pariatur eveniet repudiandae quo voluptates dolore aut accusamus illum. Ab tempore repellat totam architecto expedita veniam vitae possimus temporibus mollitia, ducimus exercitationem, tenetur, vero earum laboriosam illum animi distinctio. Ipsum quam labore quis nesciunt nam placeat incidunt totam aliquid dignissimos.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit numquam omnis consectetur nobis commodi! Sequi, quas!
+            Delectus officia omnis saepe veniam maxime mollitia facere deleniti
+            blanditiis, doloremque temporibus minus velit id iste, quaerat porro
+            corporis architecto amet vitae alias. Cum a exercitationem quisquam
+            quasi, temporibus pariatur eveniet repudiandae quo voluptates dolore
+            aut accusamus illum. Ab tempore repellat totam architecto expedita
+            veniam vitae possimus temporibus mollitia, ducimus exercitationem,
+            tenetur, vero earum laboriosam illum animi distinctio. Ipsum quam
+            labore quis nesciunt nam placeat incidunt totam aliquid dignissimos.
           </p>
         </div>
         <div className="text-5xl flex justify-center gap-8 text-white">
           <Link href={'https://twitter.com/AvolioF_'}>
-            <AiFillTwitterCircle className='text-blue-300' />{' '}
+            <AiFillTwitterCircle className="text-blue-300" />{' '}
           </Link>
           <Link href={'https://www.linkedin.com/in/franco-avolio-748513287'}>
             {' '}
-            <AiFillLinkedin className='text-blue-800' />{' '}
+            <AiFillLinkedin className="text-blue-800" />{' '}
           </Link>
         </div>
         <div className="border-t border-cyan-300 my-8"></div>
